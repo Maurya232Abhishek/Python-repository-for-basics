@@ -1,0 +1,25 @@
+def LinearRegression(px,py):
+    sumx = 0
+    sumy = 0
+    sumxx = 0
+    sumxy = 0
+    n=len(px)
+    for i in range(n):
+        x = px[i]
+        y = py[i]
+        sumx += x
+        sumy += y
+        sumxy += x*y
+        sumxx += x*x
+    a=(sumxy-sumx*sumy/n)/(sumxx-(sumx**2)/n)
+    b=(sumy-a*sumx)/n
+    #print(sumx,sumy,sumxy,sumxx)
+    return a,b
+x = [50,70,100]
+y = [12,15,21]
+
+#print(x._len_())
+a,b=LinearRegression(x,y)
+print(a,b)
+#y=ax+b
+#print(a*120+b)
