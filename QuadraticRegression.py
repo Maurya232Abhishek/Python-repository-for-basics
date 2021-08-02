@@ -6,7 +6,7 @@ def QuadraticRegression(px, py):
     sumx3 = 0
     sumx4 = 0
     sumxy = 0
-    sumx2y =0
+    sumx2y = 0
     n=len(px)
 
     for i in range(n):
