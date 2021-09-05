@@ -1,0 +1,5 @@
+1.Sort list of strings by length.
+2.Sort list of strings by no. of vowels.
+3.Find all common strings between two lists.
+4.Find all strings made up of same letters.
+5.Find set of all characters used in a sentence.

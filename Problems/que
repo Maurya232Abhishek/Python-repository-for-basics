@@ -1,0 +1,33 @@
+1.Write a program to  print all the Prime Numbers from 2 to 500. Your program should count the number of primes as well.
+2.Write a program to print all the Pythagorean Triplets between 1 to 100. Combinations like 32 + 42 = 52
+3.Write a program to check for palindromes among strings
+4.Write a program to print all permutations of a given number
+5.Write a program to print all the prime factors of a number.
+6. Input:a3b45Jshi255
+   output:3+45+255=303
+7. correct parenthesis ()correct
+ ((a+b)c+d)ab)  wrong
+ )...           wrong
+ ....(          wrong
+8. input:[1,-5,-3,4,-7,8,9,7]
+    output:[1,4,8,9,7,-5,-3,-7] # all positive value one side and all nigative value another side
+9.Write a program to print the hexadecimal of a decimal number.
+10.Check for a Happy Number. A Happy is one whose sum of squares of digits ultimately reaches one.
+    Eg 19 = 12 + 92 = 1 + 81 = 82 = 82 + 22 = 64 + 4= 68 =  62 + 82 = 36 + 64 = 12 + 02 + 02 = 1 + 0 + 0=1
+11.Perfect number is a number that is equal to the sum of its proper divisors. 6 = 1 + 2 + 3.
+12.Armstrong number is equal to the sum of cubes of its digits.
+        Eg 371= 33 + 73 + 13 = 27 + 343 + 1= 371.
+13.Sort the words in a sentence on the basis of no. of vowels.
+14.Given two strings s and t. Find the minimum number of operations that
+need to be performed on str1 to convert it to str2. The possible operations are:
+    1.Insert
+    2.Remove
+    3.Replace
+    Example 1:
+
+    Input:
+    s = "geek", t = "gesek"
+    Output: 1
+    Explanation: One operation is required
+    inserting 's' between two 'e's of str1.
+
